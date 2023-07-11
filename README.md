@@ -9,7 +9,7 @@ A Golang CLI app to manage your time efficiently. Based on the pomodoro techniqu
 3. Run `$ go install`
 4. From terminal, run `$ study timer {cycles} {work} {rest}`, where cycles is the number of repeated work : rest cycles, and work, rest are in minutes
 
-Note: If on WSL with oh-my-zsh, make sure to add the following to your `~/.zshrc` file (fix found [here](https://stackoverflow.com/questions/36083542/error-command-not-found-after-installing-go-eval)):
+Note: If on WSL with oh-my-zsh, make sure to add the following to your `~/.zshrc` file: (fix found [here](https://stackoverflow.com/questions/36083542/error-command-not-found-after-installing-go-eval))
 
 ```bash
 export GOPATH="$HOME/go"
