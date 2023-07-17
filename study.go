@@ -54,7 +54,7 @@ func main() {
 				break
 			}
 			fmt.Println("Break remaining:")
-			fmt.Printf("%v : %v\n", focus, remaining)
+			fmt.Printf("0 : %v\n", remaining)
 		}
 		fmt.Printf("%v cycles remaining\n", cycles-1)
 	}
