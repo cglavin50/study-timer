@@ -56,10 +56,10 @@ func main() {
 			fmt.Println("Break remaining:")
 			fmt.Printf("0 : %v\n", remaining)
 		}
-		fmt.Printf("%v cycles remaining\n", cycles-1)
+		cycles--
+		fmt.Printf("%v cycles remaining\n", cycles)
 	}
 
 	total := cycles * (rest + focus)
 	fmt.Printf("Done! You studied for %v minutes\n", total)
-
 }
